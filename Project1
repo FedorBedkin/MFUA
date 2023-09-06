@@ -1,1 +1,25 @@
-qqq
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace project12345
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int age = 22;
+            string gender = "мужской";
+            int height = 175;
+            int weight = 65;
+            string city = "Москва";
+            string name = "Федор";
+            string surname = "Бедкин";
+            string group = "02БИд4220";
+            Console.WriteLine($"Имя: {name} \nФамилия: {surname} \nГруппа: {group} \nПол: {gender} \nГород: {city} \nВозраст: {age} лет \nРост: {height} см \nВес: {weight} кг");
+            Console.WriteLine($"Меня зовут {name} {surname}. Обучаюсь в группе {group}. Я хочу уйти с урока по адресу {city}.");
+        }
+    }
+}
